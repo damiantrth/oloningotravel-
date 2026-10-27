@@ -1,0 +1,31 @@
+{
+  "name": "oloningo-travel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "seed:sql": "npx tsx scripts/generate-seed.ts > supabase/seed.sql"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.2.5",
+    "@fontsource-variable/instrument-sans": "^5.2.5",
+    "@supabase/supabase-js": "^2.49.4",
+    "next": "^16.4.3",
+    "next-intl": "^4.14.9",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sanitize-html": "^2.16.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/sanitize-html": "^2.15.0",
+    "typescript": "^5.8.3"
+  }
+}
